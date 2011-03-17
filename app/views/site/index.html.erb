@@ -1,0 +1,28 @@
+<div id ="header">
+	<%= image_tag("logo.png")%>
+</div>
+
+<div id ="main">
+
+<%= form_tag ('start', :method => "get") do %>
+	<div id ="topBar">
+	<%= label_tag(:text, "I only have")%>
+	<%= text_field_tag ("time","30 minutes", :size => '9')%>
+
+	<%= label_tag(:projText, "to focus on")%>
+	<%= text_field_tag ("project", "Web Development on Startup 2", :size => '50')%>
+	<td> <%= link_to "Add More",'add' %></td>
+	</div>
+
+	<div id ="lowBar">
+		<%= check_box_tag("accept") %>
+		<%= label_tag(:text, "Playing smoothing music")%> <br />
+		
+		<%= submit_tag("                    START                      ")%>
+	</div>
+	
+<% end %>
+
+
+</div>
+

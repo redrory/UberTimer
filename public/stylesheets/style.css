@@ -1,0 +1,15 @@
+#container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #FFD39C;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
