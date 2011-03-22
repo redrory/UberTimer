@@ -6,12 +6,18 @@
 
 <%= form_tag ('start', :method => "get") do %>
 	<div id ="topBar">
+	<ul>	
 	<%= label_tag(:text, "I only have")%>
 	<%= text_field_tag ("time","30 minutes", :size => '9')%>
 
 	<%= label_tag(:projText, "to focus on")%>
 	<%= text_field_tag ("project", "Web Development on Startup 2", :size => '50')%>
-	<td> <%= link_to "Add More",'add' %></td>
+
+	<td> <%= link_to "Add More","#",:class => "add" %></td>
+	<!--<span id="seconds">1</span>-->
+
+
+	</ul>
 	</div>
 
 	<div id ="lowBar">
