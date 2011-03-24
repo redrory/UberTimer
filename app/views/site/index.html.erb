@@ -8,9 +8,9 @@
 	<div id ="topBar">
 	<ul>	
 	<%= label_tag(:text, "I only have")%>
-	<%= text_field_tag ("time","30 minutes", :size => '9')%>
+	<%= text_field_tag ("time","30", :size => '4')%>
 
-	<%= label_tag(:projText, "to focus on")%>
+	<%= label_tag(:projText, "minutes     to focus on")%>
 	<%= text_field_tag ("project", "Web Development on Startup 2", :size => '50')%>
 
 	<td> <%= link_to "Add More","#",:class => "add" %></td>
